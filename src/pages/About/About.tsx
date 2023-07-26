@@ -7,6 +7,7 @@ const About = () => {
       <Navbar classNameString={"secondary"} />
       <div className={"about-content"}>
         <div className={"about-content__info"}>
+          <h3>About me</h3>
           I am Front-End developer with 1.5 years of experience. <br />
           Currently I focus on mastering React. <br />
           I have graduated Poznan University of Technology as bachelor of Computer Science. <br />
@@ -16,6 +17,7 @@ const About = () => {
           I am passionated about football, technology, games and last but not least programming.
         </div>
         <div className={"about-content__skills"}>
+          <h3>Skills</h3>
           <table>
             <tr>
               <td>
