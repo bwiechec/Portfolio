@@ -1,0 +1,24 @@
+.about {
+  min-height: 70vh;
+  width: 100%;
+  background-color: #D2D2D2;
+  color: #003366;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  text-align: center;
+  margin: auto 0;
+}
+
+.about-content__skills {
+  text-align: left;
+}
+
+.about-content__skills table{
+  border-spacing: 1rem 0;
+}

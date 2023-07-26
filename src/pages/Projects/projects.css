@@ -1,0 +1,14 @@
+.projects {
+  min-height: 70vh;
+  width: 100%;
+  background-color: #D2D2D2;
+  color: #003366;
+  border-top: 1px solid #003366;
+}
+
+.projects-list {
+  display: flex;
+  padding: 5rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly
+}

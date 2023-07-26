@@ -1,0 +1,42 @@
+.hero {
+  height: 70vh;
+  width: 100%;
+  background-color: #003366;
+  color: #D2D2D2;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.hero-image img{
+  width: 15rem;
+  height: 15rem;
+}
+
+@media screen and (min-width: 480px) {
+
+  .hero-content h1 {
+    font-size: 4rem;
+  }
+
+  .hero-content h2 {
+    font-size: 2rem;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content h2 {
+    font-size: 1.5rem;
+  }
+
+}

@@ -1,0 +1,18 @@
+.socials {
+  flex: 0 0 auto;
+  flex-direction: row;
+  display: flex;
+}
+
+.socials a {
+  color: var(--accent-color);
+}
+
+.socials a:not(:last-child) {
+  margin-right: 0.7rem;
+}
+
+.socials svg {
+  height: 2rem;
+  width: 2rem;
+}
