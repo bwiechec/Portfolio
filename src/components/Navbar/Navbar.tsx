@@ -1,5 +1,3 @@
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
 import "./navbar.css"
 import Socials from "../Socials/Socials";
 
@@ -11,7 +9,7 @@ const Navbar = ({ classNameString } : NavbarProps) => {
 
   const smoothScrollToElement = (selector: string) => {
 
-    document.querySelector(selector).scrollIntoView({
+    document.querySelector(selector)?.scrollIntoView({
       behavior: 'smooth'
     });
   }
