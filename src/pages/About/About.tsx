@@ -30,16 +30,16 @@ const About = () => {
 
             <tr>
               <td>
-                React:
+                SQL:
               </td>
               <td>
-                🟢🟢🟢⚪⚪
+                🟢🟢🟢🟢⚪
               </td>
             </tr>
 
             <tr>
               <td>
-                SQL:
+                React:
               </td>
               <td>
                 🟢🟢🟢⚪⚪
@@ -66,7 +66,52 @@ const About = () => {
 
             <tr>
               <td>
+                Android Studio (Kotlin)
+              </td>
+              <td>
+                🟢🟢⚪⚪⚪
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                TypeScript
+              </td>
+              <td>
+                🟢🟢⚪⚪⚪
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                React Libs (Mui, React-Router)
+              </td>
+              <td>
+                🟢🟢⚪⚪⚪
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                Python
+              </td>
+              <td>
+                🟢🟢⚪⚪⚪
+              </td>
+            </tr>
+
+            <tr>
+              <td>
                 C#
+              </td>
+              <td>
+                🟢⚪⚪⚪⚪
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                Node.js
               </td>
               <td>
                 🟢⚪⚪⚪⚪
