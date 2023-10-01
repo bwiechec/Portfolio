@@ -1,28 +1,26 @@
 import Navbar from "../../components/Navbar/Navbar";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import projectList from "../../helpers/projectList";
-import "./projects.css"
+import "./projects.css";
 
 const Projects = () => {
-  return(
+  return (
     <section className={"projects"}>
       <Navbar classNameString={"secondary"} />
       <div className={"projects-list"}>
-        {
-          projectList.map( project => {
-              return (
-                <ProjectCard
-                  projectLink={project.projectLink}
-                  projectSrc={project.projectSrc}
-                  projectName={project.projectName}
-                />
-              )
-            }
-          )
-        }
+        {projectList.map((project) => {
+          return (
+            <ProjectCard
+              key={project.projectName}
+              projectLink={project.projectLink}
+              projectSrc={project.projectSrc}
+              projectName={project.projectName}
+            />
+          );
+        })}
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default Projects;
