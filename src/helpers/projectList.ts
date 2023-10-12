@@ -8,6 +8,11 @@ const projectList = [
     projectLink: 'https://bwiechec.github.io/PokedexApp/',
     projectSrc: 'pokedexApp.png',
     projectName: 'Pokedex App'
+  },
+  {
+    projectLink: 'https://bwiechec.github.io/quiz/',
+    projectSrc: 'quiz.png',
+    projectName: 'Quiz App'
   }
 ];
 
