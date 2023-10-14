@@ -13,7 +13,7 @@ const projectList = [
     projectLink: 'https://bwiechec.github.io/quiz/',
     projectSrc: 'quiz.png',
     projectName: 'Quiz App'
-  }
+  },
 ];
 
 export default projectList;

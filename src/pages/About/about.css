@@ -1,5 +1,5 @@
 .about {
-  min-height: 70vh;
+  min-height: 80vh;
   width: 100%;
   background-color: #D2D2D2;
   color: #003366;
@@ -52,4 +52,24 @@
     justify-content: center;
   }
 
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0%);
+}
+
+.about-content__info {
+}
+
+.about-content__skills {
+  transition-delay: 200ms;
 }
