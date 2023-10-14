@@ -18,7 +18,7 @@ const ProjectCard = ({
 
   const cardRef = useRef<HTMLAnchorElement | null>(null);
 
-  const observerCallback = (entries) => {
+  const observerCallback = (entries: IntersectionObserverEntry[]) => {
     const [ entry ] = entries;
     if(entry.isIntersecting){
       // entry.target.classList.remove('hidden');
@@ -29,6 +29,10 @@ const ProjectCard = ({
   useEffect(() => {
     const observer = new IntersectionObserver(observerCallback);
     if (cardRef.current) observer.observe(cardRef.current as Element);
+
+    return () => {
+      if (cardRef.current) observer.unobserve(cardRef.current as Element);
+    }
 
   }, [cardRef]);
 

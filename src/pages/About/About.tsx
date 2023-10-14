@@ -8,10 +8,9 @@ const About = () => {
   const infoRef = useRef<HTMLInputElement | null>(null);
   const aboutRef = useRef<HTMLInputElement | null>(null);
 
-  const observerCallback = (entries) => {
+  const observerCallback = (entries: IntersectionObserverEntry[]) => {
     const [ entry ] = entries;
     if(entry.isIntersecting){
-      // entry.target.classList.remove('hidden');
       entry.target.classList.add('show');
     }
   }
@@ -20,12 +19,19 @@ const About = () => {
     const observer = new IntersectionObserver(observerCallback);
     if (aboutRef.current) observer.observe(aboutRef.current as Element);
 
+    return () => {
+      if (aboutRef.current) observer.unobserve(aboutRef.current as Element);
+    }
+
   }, [aboutRef]);
 
   useEffect(() => {
     const observer = new IntersectionObserver(observerCallback);
     if (infoRef.current) observer.observe(infoRef.current as Element);
 
+    return () => {
+      if (infoRef.current) observer.unobserve(infoRef.current as Element);
+    }
   }, [infoRef]);
 
   return (
