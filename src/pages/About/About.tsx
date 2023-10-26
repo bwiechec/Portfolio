@@ -39,15 +39,18 @@ const About = () => {
       <Navbar classNameString={"secondary"} />
       <div className={"about-content"}>
         <div className={"about-content__info hidden"} ref={infoRef}>
-          <h3>About me</h3>I am Front-End developer with 1.5 years of
-          experience. <br />
-          Currently I focus on mastering React. <br />
-          I have graduated Poznan University of Technology as bachelor of
-          Computer Science. <br />
-          After graduating I have studied at University WSB Merito <br />
-          as Master of Computer Science with a specialization of IoT. <br />
-          <br />I am passionated about football, technology, games and last but
-          not least programming.
+          <h3>About me</h3>
+          <p>
+            I am Front-End developer with almost 2 years of experience. <br />
+            Currently I focus on mastering React and it's libraries. <br />
+            Except react I'm currently working in ecosystem made of PHP (Symfony) and SQL (PostgreSQL).<br />
+            I have graduated Poznan University of Technology as bachelor of
+            Computer Science. <br />
+            After graduating I have studied at University WSB Merito <br />
+            as Master of Computer Science with a specialization of IoT. <br />
+            <br />I am passionated about football, technology, games and last but
+            not least programming.
+          </p>
         </div>
         <div className={"about-content__skills hidden"} ref={aboutRef}>
           <h3>Skills</h3>

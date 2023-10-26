@@ -14,6 +14,11 @@ const projectList = [
     projectSrc: 'quiz.png',
     projectName: 'Quiz App'
   },
+  {
+    projectLink: 'https://bwiechec.github.io/Portfolio/',
+    projectSrc: 'work-in-progress.png',
+    projectName: 'Online Shopping App'
+  },
 ];
 
 export default projectList;
