@@ -1,56 +1,58 @@
 const skillList = [
   {
     skillName: "JavaScript",
-    skillRating: "🟢🟢🟢🟢⚪",
+    skillType: "Frontend",
   },
   {
     skillName: "SQL",
-    skillRating: "🟢🟢🟢🟢⚪",
+    skillType: "Backend",
   },
   {
     skillName: "React",
-    skillRating: "🟢🟢🟢⚪⚪",
+    skillType: "Frontend",
   },
   {
     skillName: "PHP",
-    skillRating: "🟢🟢🟢⚪⚪",
+    skillType: "Backend",
   },
   {
     skillName: "TypeScript",
-    skillRating: "🟢🟢🟢⚪⚪",
+    skillType: "Mixed",
   },
   {
     skillName: "Material-UI",
-    skillRating: "🟢🟢🟢⚪⚪",
+    skillType: "Frontend",
   },
   {
     skillName: "React-Router",
-    skillRating: "🟢🟢🟢⚪⚪",
+    skillType: "Frontend",
   },
   {
     skillName: "Redux",
-    skillRating: "🟢🟢⚪⚪⚪",
+    skillType: "Frontend",
   },
   {
     skillName: "C++",
-    skillRating: "🟢🟢⚪⚪⚪",
+    skillType: "Backend",
   },
   {
     skillName: "Android Studio (Kotlin)",
-    skillRating: "🟢🟢⚪⚪⚪",
+    skillType: "Mobile",
   },
   {
     skillName: "Python",
-    skillRating: "🟢🟢⚪⚪⚪",
+    skillType: "Mixed",
   },
   {
     skillName: "C#",
-    skillRating: "🟢🟢⚪⚪⚪",
+    skillType: "Backend",
   },
   {
     skillName: "Node.js",
-    skillRating: "🟢⚪⚪⚪⚪",
+    skillType: "Backend",
   },
 ];
+
+export const skillTypes = ["Frontend", "Backend", "Mixed", "Mobile"];
 
 export default skillList;

@@ -1,23 +1,27 @@
 const projectList = [
   {
-    projectLink: 'https://bwiechec.github.io/Twitter-Clone/',
-    projectSrc: 'doggter.png',
-    projectName: 'Doggter (Twitter-Clone)'
+    projectLink: "https://bwiechec.github.io/Twitter-Clone/",
+    githubLink: "https://github.com/bwiechec/Twitter-Clone",
+    projectSrc: "doggter.png",
+    projectName: "Doggter (Twitter-Clone)",
   },
   {
-    projectLink: 'https://bwiechec.github.io/PokedexApp/',
-    projectSrc: 'pokedexApp.png',
-    projectName: 'Pokedex App'
+    projectLink: "https://bwiechec.github.io/PokedexApp/",
+    githubLink: "https://github.com/bwiechec/PokedexApp",
+    projectSrc: "pokedexApp.png",
+    projectName: "Pokedex App",
   },
   {
-    projectLink: 'https://bwiechec.github.io/quiz/',
-    projectSrc: 'quiz.png',
-    projectName: 'Quiz App'
+    projectLink: "https://bwiechec.github.io/quiz/",
+    githubLink: "https://github.com/bwiechec/quiz",
+    projectSrc: "quiz.png",
+    projectName: "Quiz App",
   },
   {
-    projectLink: 'https://bwiechec.github.io/Portfolio/',
-    projectSrc: 'work-in-progress.png',
-    projectName: 'Online Shopping App'
+    projectLink: "https://bwiechec.github.io/phoneGear/",
+    githubLink: "https://github.com/bwiechec/phoneGear",
+    projectSrc: "phoneGear.png",
+    projectName: "PhoneGear App",
   },
 ];
 

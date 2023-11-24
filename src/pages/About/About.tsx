@@ -1,19 +1,20 @@
 import Navbar from "../../components/Navbar/Navbar";
 import "./about.css";
+import SkillsForType from "../../components/skillsListForType/SkillListForType";
 
-import skillList from "../../helpers/skills";
-import {useEffect, useRef} from "react";
+import skillList, { skillTypes } from "../../helpers/skills";
+import { useEffect, useRef } from "react";
 
 const About = () => {
   const infoRef = useRef<HTMLInputElement | null>(null);
   const aboutRef = useRef<HTMLInputElement | null>(null);
 
   const observerCallback = (entries: IntersectionObserverEntry[]) => {
-    const [ entry ] = entries;
-    if(entry.isIntersecting){
-      entry.target.classList.add('show');
+    const [entry] = entries;
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
     }
-  }
+  };
 
   useEffect(() => {
     const observer = new IntersectionObserver(observerCallback);
@@ -21,8 +22,7 @@ const About = () => {
 
     return () => {
       if (aboutRef.current) observer.unobserve(aboutRef.current as Element);
-    }
-
+    };
   }, [aboutRef]);
 
   useEffect(() => {
@@ -31,7 +31,7 @@ const About = () => {
 
     return () => {
       if (infoRef.current) observer.unobserve(infoRef.current as Element);
-    }
+    };
   }, [infoRef]);
 
   return (
@@ -43,27 +43,40 @@ const About = () => {
           <p>
             I am Front-End developer with almost 2 years of experience. <br />
             Currently I focus on mastering React and it's libraries. <br />
-            Except react I'm currently working in ecosystem made of PHP (Symfony) and SQL (PostgreSQL).<br />
+            Except react I'm currently working in ecosystem made of PHP
+            (Symfony) and SQL (PostgreSQL).
+            <br />
+            <br />
             I have graduated Poznan University of Technology as bachelor of
             Computer Science. <br />
             After graduating I have studied at University WSB Merito <br />
             as Master of Computer Science with a specialization of IoT. <br />
-            <br />I am passionated about football, technology, games and last but
-            not least programming.
+            <br />I am passionated about football, technology, games and last
+            but not least programming.
           </p>
         </div>
         <div className={"about-content__skills hidden"} ref={aboutRef}>
           <h3>Skills</h3>
           <table>
             <tbody>
-              {skillList.map((skill) => {
-                return (
-                  <tr key={skill.skillName}>
-                    <td>{skill.skillName}:</td>
-                    <td>{skill.skillRating}</td>
-                  </tr>
-                );
-              })}
+              <tr>
+                {skillTypes.map((type) => {
+                  let skillsForType = skillList.filter(
+                    (skill) => skill.skillType === type
+                  );
+
+                  return (
+                    <tr>
+                      <tr key={type}>
+                        <td>
+                          <b>{type}</b>
+                        </td>
+                      </tr>
+                      <SkillsForType skillsForType={skillsForType} />
+                    </tr>
+                  );
+                })}
+              </tr>
             </tbody>
           </table>
         </div>

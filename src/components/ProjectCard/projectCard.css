@@ -4,19 +4,22 @@
   text-align: center;
 }
 
-
 @media screen and (min-width: 480px) {
   .project {
-    width: max(30rem, calc(100%/3));
+    width: min(30rem, 100%);
+    padding: 3rem;
   }
 
   .project-image {
     border: 1px solid var(--accent-color);
-    width: 30rem;
+    width: min(30rem, 100%);
   }
 }
 
 @media screen and (max-width: 480px) {
+  .project {
+    width: 100%;
+  }
   .project-image {
     border: 1px solid var(--accent-color);
     width: 100%;
@@ -42,4 +45,24 @@
 
 .project-card-2 {
   transition-delay: 400ms;
+}
+
+.project-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-info__icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-info__icons a {
+  color: var(--accent-color);
+}
+
+.project-info__icons svg {
+  height: 2rem;
+  width: 2rem;
 }

@@ -1,7 +1,7 @@
 .about {
   min-height: 80vh;
   width: 100%;
-  background-color: #D2D2D2;
+  background-color: #d2d2d2;
   color: #003366;
   display: flex;
   flex-direction: column;
@@ -16,10 +16,10 @@
 }
 
 .about-content__skills {
-  text-align: left;
+  text-align: cenetr;
 }
 
-.about-content__skills table{
+.about-content__skills table {
   border-spacing: 1rem 0;
 }
 
@@ -31,16 +31,20 @@
   margin: 0 auto;
 }
 
-@media screen and (min-width: 480px) {
+.about-content__skills table tbody > tr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
 
+@media screen and (min-width: 480px) {
   .about-content {
     flex-direction: row;
   }
-
 }
 
 @media screen and (max-width: 480px) {
-
   .about-content {
     flex-direction: column;
   }
@@ -51,7 +55,6 @@
     display: flex;
     justify-content: center;
   }
-
 }
 
 .hidden {

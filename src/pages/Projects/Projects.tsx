@@ -11,9 +11,10 @@ const Projects = () => {
         {projectList.map((project, key) => {
           return (
             <ProjectCard
-              projectClass={`project-card-${key%3}`}
+              projectClass={`project-card-${key % 2}`}
               key={project.projectName}
               projectLink={project.projectLink}
+              githubLink={project.githubLink}
               projectSrc={project.projectSrc}
               projectName={project.projectName}
             />

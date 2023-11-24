@@ -2,7 +2,7 @@
 
 ## Description
 
-This is my personal portfolio website. It contains a brief introduction of myself and list of my projects made to show my programming skills.
+This is my personal portfolio website. It contains a brief introduction of myself and list of my projects made to show my programming skills. Made in React.
 
 ## Table of Contents
 
@@ -27,4 +27,10 @@ To run app use
 
 ```
 yarn run dev
+```
+
+To build app use
+
+```
+yarn run build
 ```
