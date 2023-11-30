@@ -70,9 +70,6 @@
   transform: translateX(0%);
 }
 
-.about-content__info {
-}
-
 .about-content__skills {
   transition-delay: 200ms;
 }

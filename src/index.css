@@ -1,6 +1,6 @@
 :root {
   /*font-family: 'Josefin Sans', sans-serif;*/
-  font-family: 'League Spartan', sans-serif;
+  font-family: "League Spartan", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -15,8 +15,8 @@
   -webkit-text-size-adjust: 100%;
 
   --primary-color: #003366;
-  --secondary-color: #D2D2D2;
-  --accent-color: #FF5733;
+  --secondary-color: #d2d2d2;
+  --accent-color: #ff5733;
 }
 
 body {
@@ -25,4 +25,14 @@ body {
   place-items: center;
   min-width: 100%;
   min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span {
+  cursor: default;
 }

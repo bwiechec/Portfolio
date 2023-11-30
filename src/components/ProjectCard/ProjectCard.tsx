@@ -2,6 +2,7 @@ import "./projectCard.css";
 import { useEffect, useRef } from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import PageviewIcon from "@mui/icons-material/Pageview";
+import Tooltip from "@mui/material/Tooltip";
 
 interface projectCardProps {
   projectLink: string;
@@ -39,16 +40,22 @@ const ProjectCard = ({
 
   return (
     <div ref={cardRef} className={`project ${projectClass} hidden`}>
-      <img className={"project-image"} src={projectSrc} alt={projectName} />
+      <a href={projectLink} target={"_blank"}>
+        <img className={"project-image"} src={projectSrc} alt={projectName} />
+      </a>
       <div className={"project-info"}>
         <h2>{projectName}</h2>
         <div className={"project-info__icons"}>
-          <a href={githubLink} target={"_blank"}>
-            <GitHubIcon />
-          </a>
-          <a href={projectLink} target={"_blank"}>
-            <PageviewIcon />
-          </a>
+          <Tooltip title="Link to project on GitHub">
+            <a href={githubLink} target={"_blank"}>
+              <GitHubIcon />
+            </a>
+          </Tooltip>
+          <Tooltip title="Link to project view">
+            <a href={projectLink} target={"_blank"}>
+              <PageviewIcon />
+            </a>
+          </Tooltip>
         </div>
       </div>
     </div>
