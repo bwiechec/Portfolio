@@ -18,7 +18,7 @@ const projectList = [
     projectName: "Quiz App",
   },
   {
-    projectLink: "https://bwiechec.github.io/phoneGear/",
+    projectLink: "https://phone-gear.vercel.app/",
     githubLink: "https://github.com/bwiechec/phoneGear",
     projectSrc: "phoneGear.png",
     projectName: "PhoneGear App",
