@@ -1,9 +1,11 @@
 import Navbar from "../../components/Navbar/Navbar";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import projectList from "../../helpers/projectList";
+import { getColNumber } from "../../helpers/viewport";
 import "./projects.css";
 
 const Projects = () => {
+  const colNumber = getColNumber(undefined);
   return (
     <section className={"projects"}>
       <Navbar classNameString={"secondary"} />
@@ -11,7 +13,7 @@ const Projects = () => {
         {projectList.map((project, key) => {
           return (
             <ProjectCard
-              projectClass={`project-card-${key % 2}`}
+              projectClass={`project-card-${key % colNumber}`}
               key={project.projectName}
               projectLink={project.projectLink}
               githubLink={project.githubLink}
