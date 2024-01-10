@@ -19,6 +19,7 @@ const Projects = () => {
               githubLink={project.githubLink}
               projectSrc={project.projectSrc}
               projectName={project.projectName}
+              projectTechStack={project.techStack}
             />
           );
         })}

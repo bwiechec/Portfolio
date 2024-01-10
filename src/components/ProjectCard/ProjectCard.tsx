@@ -10,6 +10,7 @@ interface projectCardProps {
   projectSrc: string;
   projectName: string;
   projectClass: string;
+  projectTechStack: Array<string>;
 }
 
 const ProjectCard = ({
@@ -18,6 +19,7 @@ const ProjectCard = ({
   githubLink,
   projectName,
   projectClass,
+  projectTechStack,
 }: projectCardProps) => {
   const cardRef = useRef<HTMLDivElement | null>(null);
 
@@ -40,8 +42,18 @@ const ProjectCard = ({
 
   return (
     <div ref={cardRef} className={`project ${projectClass} hidden`}>
-      <a href={projectLink} target={"_blank"}>
+      <a
+        href={projectLink}
+        target={"_blank"}
+        className={"project-image-container"}
+      >
         <img className={"project-image"} src={projectSrc} alt={projectName} />
+        <div className={"project-image-overlay"}>
+          <div className={"project-image-overlay-text"}>
+            Tech stack
+            <ul>{projectTechStack.join(", ")}</ul>
+          </div>
+        </div>
       </a>
       <div className={"project-info"}>
         <h2>{projectName}</h2>
