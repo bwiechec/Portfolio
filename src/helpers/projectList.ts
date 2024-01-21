@@ -11,7 +11,7 @@ const projectList = [
     githubLink: "https://github.com/bwiechec/phoneGear",
     projectSrc: "phoneGear.png",
     projectName: "PhoneGear App",
-    techStack: ["React", "TypeScript", "Firebase"],
+    techStack: ["React", "Next.js", "TypeScript", "Firebase"],
   },
   {
     projectLink: "https://bwiechec.github.io/Twitter-Clone/",
