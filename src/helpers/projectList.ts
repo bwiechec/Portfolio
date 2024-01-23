@@ -3,7 +3,7 @@ const projectList = [
     projectLink: "https://textenger.vercel.app/",
     githubLink: "https://github.com/bwiechec/Textenger",
     projectSrc: "textenger.png",
-    projectName: "Textenger **IN PROGRESS**",
+    projectName: "Textenger",
     techStack: ["React", "TypeScript", "Firebase", "Tailwind"],
   },
   {
