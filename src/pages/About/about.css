@@ -73,3 +73,13 @@
 .about-content__skills {
   transition-delay: 200ms;
 }
+
+.about + div {
+  max-width: 1024px;
+  margin-inline: auto;
+}
+
+.about-content {
+  max-width: 1024px;
+  margin-inline: auto;
+}
