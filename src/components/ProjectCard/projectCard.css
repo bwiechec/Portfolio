@@ -11,7 +11,7 @@
 @media screen and (min-width: 480px) {
   .project {
     width: min(30rem, 100%);
-    padding: 3rem;
+    padding: 0 3rem;
   }
 
   .project-image,
