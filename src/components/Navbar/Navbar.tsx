@@ -14,7 +14,7 @@ const Navbar = ({ classNameString }: NavbarProps) => {
 
   return (
     <nav className={`${classNameString}`}>
-      <div className=" nav">
+      <div className="nav">
         <Socials />
 
         <div className={"nav-sections"}>

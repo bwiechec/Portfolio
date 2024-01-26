@@ -1,9 +1,9 @@
 .projects {
   min-height: 80vh;
   width: 100%;
-  background-color: #d2d2d2;
-  color: #003366;
-  border-top: 1px solid #003366;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-top: 1px solid var(--primary-color);
 }
 
 .projects-list {

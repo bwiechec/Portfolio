@@ -6,7 +6,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #333333;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,9 +14,10 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  --primary-color: #003366;
+  --primary-color: #333333;
   --secondary-color: #d2d2d2;
   --accent-color: #ff5733;
+  /*#ff5733 #003366*/
 }
 
 body {

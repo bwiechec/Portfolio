@@ -36,12 +36,20 @@ a {
   -webkit-box-shadow: 0 2px 18px -10px var(--secondary-color);
   -moz-box-shadow: 0 2px 18px -10px var(--secondary-color);
   box-shadow: 0 2px 18px -10px var(--secondary-color);
+  position: sticky;
+  top: 0;
+  background-color: var(--primary-color);
+  z-index: 10;
 }
 
 .secondary {
   -webkit-box-shadow: 0 2px 18px -10px var(--primary-color);
   -moz-box-shadow: 0 2px 18px -10px var(--primary-color);
   box-shadow: 0 2px 18px -10px var(--primary-color);
+  position: sticky;
+  top: 0;
+  background-color: var(--secondary-color);
+  z-index: 10;
 }
 
 .nav a,
