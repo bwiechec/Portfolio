@@ -41,7 +41,7 @@ const About = () => {
         <div className={"about-content__info hidden"} ref={infoRef}>
           <h3>About me</h3>
           <p>
-            I am Front-End developer with almost 2 years of experience. <br />
+            I am Front-End developer with over 2 years of experience. <br />
             Currently I focus on mastering React and it's libraries. <br />
             Except react I'm currently working in ecosystem made of PHP
             (Symfony) and SQL (PostgreSQL).
