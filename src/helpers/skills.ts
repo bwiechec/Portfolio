@@ -51,6 +51,10 @@ const skillList = [
     skillName: "Node.js",
     skillType: "Backend",
   },
+  {
+    skillName: "FastAPI",
+    skillType: "Backend",
+  },
 ];
 
 export const skillTypes = ["Frontend", "Backend", "Mixed", "Mobile"];
