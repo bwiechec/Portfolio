@@ -55,6 +55,10 @@ const skillList = [
     skillName: "FastAPI",
     skillType: "Backend",
   },
+  {
+    skillName: "Django",
+    skillType: "Backend",
+  },
 ];
 
 export const skillTypes = ["Frontend", "Backend", "Mixed", "Mobile"];
