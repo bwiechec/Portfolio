@@ -1,5 +1,12 @@
 const projectList = [
   {
+    projectLink: "https://textenger-fast-api.vercel.app/",
+    githubLink: "https://github.com/bwiechec/Textenger_FastAPI",
+    projectSrc: "textengerBackend.png",
+    projectName: "Textenger Backend",
+    techStack: ["Python", "FastAPI", "MongoDB Atlas"],
+  },
+  {
     projectLink: "https://textenger.vercel.app/",
     githubLink: "https://github.com/bwiechec/Textenger",
     projectSrc: "textenger.png",
