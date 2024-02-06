@@ -9,27 +9,21 @@
 .projects-list {
   display: grid;
   padding: 5rem;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 4rem;
   justify-items: center;
   max-width: 1024px;
   margin-inline: auto;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 820px) {
   .projects-list {
     grid-template-columns: 1fr;
   }
 }
 
-@media (min-width: 640px) and (max-width: 1024px) {
+@media (min-width: 820px) {
   .projects-list {
     grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (min-width: 1024px) {
-  .projects-list {
-    grid-template-columns: 1fr 1fr 1fr;
   }
 }
