@@ -1,5 +1,19 @@
 const projectList = [
   {
+    projectLink: "https://shortener-link.vercel.app/",
+    githubLink: "https://github.com/bwiechec/LinkShortener",
+    projectSrc: "linkShortener.png",
+    projectName: "Link Shortener [IN PROGRESS]",
+    techStack: [
+      "Python",
+      "FastAPI",
+      "MongoDB Atlas",
+      "React",
+      "TypeScript",
+      "Chakra UI",
+    ],
+  },
+  {
     projectLink: "https://textenger-fast-api.vercel.app/",
     githubLink: "https://github.com/bwiechec/Textenger_FastAPI",
     projectSrc: "textengerBackend.png",
