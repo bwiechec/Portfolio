@@ -52,7 +52,7 @@ const projectList = [
     projectLink: "https://bwiechec.github.io/PokedexApp/",
     githubLink: "https://github.com/bwiechec/PokedexApp",
     projectSrc: "pokedexApp.png",
-    projectName: "Pokedex App",
+    projectName: "Pokedex App [REFACTOR IN PROGRESS]",
     techStack: ["React", "TypeScript"],
   },
 ];
