@@ -38,7 +38,7 @@ const projectList = [
     projectLink: "https://pokedex-app-five-pied.vercel.app/",
     githubLink: "https://github.com/bwiechec/PokedexApp",
     projectSrc: "pokedexApp.png",
-    projectName: "Pokedex App [REFACTOR IN PROGRESS]",
+    projectName: "Pokedex App",
     techStack: ["React", "TypeScript"],
   },
   {
