@@ -28,18 +28,18 @@ const projectList = [
     techStack: ["React", "TypeScript", "Firebase", "Tailwind"],
   },
   {
-    projectLink: "https://phone-gear.vercel.app/",
-    githubLink: "https://github.com/bwiechec/phoneGear",
-    projectSrc: "phoneGear.png",
-    projectName: "PhoneGear App",
-    techStack: ["React", "Next.js", "TypeScript", "Firebase"],
-  },
-  {
     projectLink: "https://pokedex-app-five-pied.vercel.app/",
     githubLink: "https://github.com/bwiechec/PokedexApp",
     projectSrc: "pokedexApp.png",
     projectName: "Pokedex App",
     techStack: ["React", "TypeScript"],
+  },
+  {
+    projectLink: "https://phone-gear.vercel.app/",
+    githubLink: "https://github.com/bwiechec/phoneGear",
+    projectSrc: "phoneGear.png",
+    projectName: "PhoneGear App",
+    techStack: ["React", "Next.js", "TypeScript", "Firebase"],
   },
   {
     projectLink: "https://bwiechec.github.io/Twitter-Clone/",

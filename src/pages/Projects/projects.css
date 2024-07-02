@@ -1,9 +1,17 @@
 .projects {
-  min-height: 80vh;
+  min-height: 100vh;
   width: 100%;
   background-color: var(--secondary-color);
   color: var(--primary-color);
-  border-top: 1px solid var(--primary-color);
+  /* border-top: 1px solid var(--primary-color); */
+  border: 0;
+  position: relative;
+}
+
+.projects-anchor {
+  position: absolute;
+  top: -105px;
+  left: 0;
 }
 
 .projects-list {

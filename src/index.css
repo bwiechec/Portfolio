@@ -18,6 +18,8 @@
   --secondary-color: #d2d2d2;
   --accent-color: #ff5733;
   /*#ff5733 #003366*/
+
+  --primaryHalf: #33333350;
 }
 
 body {
@@ -36,4 +38,23 @@ h5,
 p,
 span {
   cursor: default;
+}
+
+.heading {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--accent-color);
+  width: fit-content;
+  margin-inline: auto;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.accent-hr {
+  border: 1px solid var(--secondary-color);
+  box-shadow: 0 2px 18px 2px var(--accent-color);
+  max-width: 1024px;
+  margin: 0 auto;
+  /* padding: 1rem; */
 }

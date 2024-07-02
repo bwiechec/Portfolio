@@ -7,9 +7,9 @@ interface NavbarProps {
 
 const Navbar = ({ classNameString }: NavbarProps) => {
   const smoothScrollToElement = (selector: string) => {
-    document.querySelector(selector)?.scrollIntoView({
-      behavior: "smooth",
-    });
+    document
+      .querySelector(selector)
+      ?.scrollIntoView({ block: "start", behavior: "smooth" });
   };
 
   return (
@@ -18,8 +18,10 @@ const Navbar = ({ classNameString }: NavbarProps) => {
         <Socials />
 
         <div className={"nav-sections"}>
-          <button onClick={() => smoothScrollToElement(".about")}>About</button>
-          <button onClick={() => smoothScrollToElement(".projects")}>
+          <button onClick={() => smoothScrollToElement(".about-anchor")}>
+            About
+          </button>
+          <button onClick={() => smoothScrollToElement(".projects-anchor")}>
             Projects
           </button>
         </div>

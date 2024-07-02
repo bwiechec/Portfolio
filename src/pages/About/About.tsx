@@ -12,6 +12,7 @@ const About = () => {
   const observerCallback = (entries: IntersectionObserverEntry[]) => {
     const [entry] = entries;
     if (entry.isIntersecting) {
+      console.log("intersecting");
       entry.target.classList.add("show");
     }
   };
@@ -36,7 +37,8 @@ const About = () => {
 
   return (
     <section className={"about"} id={"about"}>
-      <Navbar classNameString={"secondary"} />
+      <div className={"about-anchor"}></div>
+      <h1 className={"heading"}>About</h1>
       <div className={"about-content"}>
         <div className={"about-content__info hidden"} ref={infoRef}>
           <h3>About me</h3>

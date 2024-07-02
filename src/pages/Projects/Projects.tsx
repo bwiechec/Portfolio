@@ -8,7 +8,10 @@ const Projects = () => {
   const colNumber = getColNumber(undefined);
   return (
     <section className={"projects"}>
-      <Navbar classNameString={"secondary"} />
+      <hr className={"accent-hr"} />
+      {/* <Navbar classNameString={"secondary"} /> */}
+      <div className={"projects-anchor"}></div>
+      <h1 className={"heading"}>Projects</h1>
       <div className={"projects-list"}>
         {projectList.map((project, key) => {
           return (
