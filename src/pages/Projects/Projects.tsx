@@ -1,4 +1,3 @@
-import Navbar from "../../components/Navbar/Navbar";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import projectList from "../../helpers/projectList";
 import { getColNumber } from "../../helpers/viewport";

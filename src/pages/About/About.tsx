@@ -1,4 +1,3 @@
-import Navbar from "../../components/Navbar/Navbar";
 import "./about.css";
 import SkillsForType from "../../components/skillsListForType/SkillListForType";
 
