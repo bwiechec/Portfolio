@@ -12,8 +12,9 @@ function App() {
 
   return (
     <>
+      <Navbar classNameString={"primary"} />
       <Hero />
-      <Navbar classNameString={"secondary"} />
+      {/* <Navbar classNameString={"secondary"} /> */}
       <About />
       <Projects />
       <Footer />

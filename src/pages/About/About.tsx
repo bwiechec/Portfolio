@@ -9,6 +9,7 @@ const About = () => {
   const aboutRef = useRef<HTMLInputElement | null>(null);
 
   const observerCallback = (entries: IntersectionObserverEntry[]) => {
+    console.log(entries);
     const [entry] = entries;
     if (entry.isIntersecting) {
       console.log("intersecting");
@@ -37,6 +38,7 @@ const About = () => {
   return (
     <section className={"about"} id={"about"}>
       <div className={"about-anchor"}></div>
+      <hr className={"accent-hr"} />
       <h1 className={"heading"}>About</h1>
       <div className={"about-content"}>
         <div className={"about-content__info hidden"} ref={infoRef}>

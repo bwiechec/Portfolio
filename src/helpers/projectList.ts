@@ -1,25 +1,25 @@
 const projectList = [
-  {
-    projectLink: "https://shortener-link.vercel.app/",
-    githubLink: "https://github.com/bwiechec/LinkShortener",
-    projectSrc: "linkShortener.png",
-    projectName: "Link Shortener [IN PROGRESS]",
-    techStack: [
-      "Python",
-      "FastAPI",
-      "MongoDB Atlas",
-      "React",
-      "TypeScript",
-      "Chakra UI",
-    ],
-  },
-  {
-    projectLink: "https://textenger-fast-api.vercel.app/",
-    githubLink: "https://github.com/bwiechec/Textenger_FastAPI",
-    projectSrc: "textengerBackend.png",
-    projectName: "Textenger Backend",
-    techStack: ["Python", "FastAPI", "MongoDB Atlas"],
-  },
+  // {
+  //   projectLink: "https://shortener-link.vercel.app/",
+  //   githubLink: "https://github.com/bwiechec/LinkShortener",
+  //   projectSrc: "linkShortener.png",
+  //   projectName: "Link Shortener [IN PROGRESS]",
+  //   techStack: [
+  //     "Python",
+  //     "FastAPI",
+  //     "MongoDB Atlas",
+  //     "React",
+  //     "TypeScript",
+  //     "Chakra UI",
+  //   ],
+  // },
+  // {
+  //   projectLink: "https://textenger-fast-api.vercel.app/",
+  //   githubLink: "https://github.com/bwiechec/Textenger_FastAPI",
+  //   projectSrc: "textengerBackend.png",
+  //   projectName: "Textenger Backend",
+  //   techStack: ["Python", "FastAPI", "MongoDB Atlas"],
+  // },
   {
     projectLink: "https://textenger.vercel.app/",
     githubLink: "https://github.com/bwiechec/Textenger",
@@ -38,7 +38,7 @@ const projectList = [
     projectLink: "https://phone-gear.vercel.app/",
     githubLink: "https://github.com/bwiechec/phoneGear",
     projectSrc: "phoneGear.png",
-    projectName: "PhoneGear App",
+    projectName: "PhoneGear App [IN REFACTOR QUEUE]",
     techStack: ["React", "Next.js", "TypeScript", "Firebase"],
   },
   {
@@ -49,11 +49,11 @@ const projectList = [
     techStack: ["React", "TypeScript"],
   },
   {
-    projectLink: "https://bwiechec.github.io/quiz/",
-    githubLink: "https://github.com/bwiechec/quiz",
-    projectSrc: "quiz.png",
-    projectName: "Quiz App",
-    techStack: ["React", "TypeScript", "Firebase"],
+    projectLink: "https://textenger.vercel.app/",
+    githubLink: "https://json-parser-nu.vercel.app/",
+    projectSrc: "work-in-progress.png",
+    projectName: "JSON Parser [IN PROGRESS]",
+    techStack: ["React", "TypeScript", "Material UI"],
   },
 ];
 
