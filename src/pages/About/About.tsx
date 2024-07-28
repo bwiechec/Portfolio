@@ -9,10 +9,8 @@ const About = () => {
   const aboutRef = useRef<HTMLInputElement | null>(null);
 
   const observerCallback = (entries: IntersectionObserverEntry[]) => {
-    console.log(entries);
     const [entry] = entries;
     if (entry.isIntersecting) {
-      console.log("intersecting");
       entry.target.classList.add("show");
     }
   };
@@ -69,7 +67,7 @@ const About = () => {
                   );
 
                   return (
-                    <tr>
+                    <tr key={`${type}-skillSet`}>
                       <tr key={type}>
                         <td>
                           <b>{type}</b>
