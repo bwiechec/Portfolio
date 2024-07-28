@@ -49,8 +49,8 @@ const projectList = [
     techStack: ["React", "TypeScript"],
   },
   {
-    projectLink: "https://textenger.vercel.app/",
-    githubLink: "https://json-parser-nu.vercel.app/",
+    projectLink: "https://json-parser-nu.vercel.app/",
+    githubLink: "https://github.com/bwiechec/JSON-Parser",
     projectSrc: "work-in-progress.png",
     projectName: "JSON Parser [IN PROGRESS]",
     techStack: ["React", "TypeScript", "Material UI"],
